@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 🤖</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="perfil" src="klipartz.com.png" alt="">
+        </div>
+        <div>
+            <div class="totales">
+                <p>Total:</p>
+                <span class="precioTotal">0 €</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cajita">
+            <form action="" id="elementosFormulario">
+                <div class="elementos">
+                    <div>
+                        <label for="name">Nombre:</label> <br>
+                        <input type="text" id="name" placeholder="Introduce un producto..."> <br>
+                        <label for="precio">Precio:</label> <br>
+                        <input type="number" id="precio" step="0.01" required min="0.00" placeholder="0.00">
+                        <br>
+                        <label for="imagen">Imagen:</label> <br>
+                        <input type="text" id="imagen" placeholder="Añade URL..."> <br> <br>
+                    </div>
+                    <div>
+                        <label for="descripcion">Descripción:</label> <br>
+                        <textarea name="descripcion" id="descripcion" placeholder="Este producto es..."></textarea>
+                        <br>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit">Añadir</button> <br>
+                </div>
+            </form>
+            <p id="tituloProductos">Tus productos</p>
+            <hr>
+        </div>
+        <div id="listaPrincipal">
+            <!-- <div class="boxProducto">
+                <div class="imagen">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB0FdS4ge1Cp-JVUke5zbZolbrD_b6Y5jmcA&s"
+                        alt="fotoProducto">
+                </div>
+                <div>
+                    <h3>Nombre</h3>
+                    <p>Descripción</p>
+                </div>
+                <div>
+                    <p>Precio</p>
+                    <button type="button" class="borrar"><b>X</b></button>
+                </div>
+            </div> -->
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
